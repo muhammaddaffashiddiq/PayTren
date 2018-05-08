@@ -2,11 +2,15 @@
 <html>
 <head>
 	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-	<a href="http://localhost/Tugas/index.php/User/add">Tambah</a>
-	<table border="1">
+	<div class="container ">
+	<table class="table table-bordered table-striped table-hover">
 		<tr><!--td ke ssamping tr kebawah-->
+		Belum memiliki akun?<a href="http://localhost/Tugas/index.php/User/add">Tambah</a>
 			<td>id</td>
 			<td>username</td>
 			<td>password</td>
@@ -36,5 +40,6 @@
 		<?php endforeach ?>
 
 	</table>
+	</div><br/><br/>
 </body>
 </html>
