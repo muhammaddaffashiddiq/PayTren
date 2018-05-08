@@ -33,7 +33,7 @@ class User extends CI_Controller {
 		if ($insert) {
 
 
-            echo "sukses";//jika proses memasukkan berhasil maka prin sukses dan sebaliknya
+            redirect('User');//jika proses memasukkan berhasil maka prin sukses dan sebaliknya
 
         } else {
 
@@ -64,7 +64,7 @@ class User extends CI_Controller {
 		if ($insert) {
 
 
-            echo "sukses";
+            redirect('User');
 
         } else {
 

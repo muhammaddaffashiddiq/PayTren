@@ -6,11 +6,11 @@
 <body>
 	<form action="http://localhost/Tugas/index.php/User/masukkan" method="post">
 
-		<input type="text" name="username" placeholder="username">
-		<input type="text" name="password" placeholder="password">
-		<input type="text" name="fullname" placeholder="fullname">
-		<input type="text" name="level" placeholder="level">
-		<input type="submit" value="save">
+		<center><input type="text" name="username" placeholder="username"></center><br>
+		<center><input type="text" name="password" placeholder="password"></center><br>
+		<center><input type="text" name="fullname" placeholder="fullname"></center><br>
+		<center><input type="text" name="level" placeholder="level"></center><br>
+		<center><input type="submit" value="save"></center>
 	</form>
 </body>
 </html>
