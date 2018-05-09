@@ -10,7 +10,7 @@
 	<div class="container ">
 	<table class="table table-bordered table-striped table-hover">
 		<tr><!--td ke ssamping tr kebawah-->
-		Belum memiliki akun?<a href="http://localhost/Tugas/index.php/User/add">Tambah</a>
+		Belum memiliki akun?<a href="http://localhost/Tugas/index.php/User/add"> Daftar</a>
 			<td>id</td>
 			<td>username</td>
 			<td>password</td>
